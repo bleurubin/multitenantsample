@@ -64,7 +64,7 @@ grails:
 grails:
     gorm:
         multiTenancy:
-            mode: SCHEMA
+            mode: DATABASE
             tenantResolverClass: org.grails.datastore.mapping.multitenancy.web.SubDomainTenantResolver
 ---
 grails:
