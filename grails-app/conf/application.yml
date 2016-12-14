@@ -61,6 +61,21 @@ grails:
         encoding: UTF-8
 
 ---
+grails:
+    gorm:
+        multiTenancy:
+            mode: SCHEMA
+            tenantResolverClass: org.grails.datastore.mapping.multitenancy.web.SubDomainTenantResolver
+---
+grails:
+    mongodb:
+        url: mongodb://localhost/ass
+        connections:
+            kaiser:
+                url: mongodb://localhost/kaiser
+            roseryan:
+                url: mongodb://localhost/roseryan
+---
 #hibernate:
 #    cache:
 #        queries: false
