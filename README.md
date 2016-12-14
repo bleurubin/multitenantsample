@@ -1,6 +1,6 @@
 # multitenantsample
 
-Sample rest-api multitenant application demonstrating mongodb multitenant functionality.  TenantId is specified in the subdomain.
+Sample rest-api multitenant application demonstrating mongodb multitenant functionality.  TenantId is specified in the subdomain.  Standard REST interface to the /foos endpoint.  
 
 ##Installation
 
