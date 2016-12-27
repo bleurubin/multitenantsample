@@ -64,17 +64,10 @@ grails:
 grails:
     gorm:
         multiTenancy:
-            mode: SCHEMA
+            mode: DISCRIMINATOR
             tenantResolverClass: org.grails.datastore.mapping.multitenancy.web.SubDomainTenantResolver
----
-grails:
     mongodb:
-        url: mongodb://localhost/ass
-        connections:
-            kaiser:
-                url: mongodb://localhost/kaiser
-            roseryan:
-                url: mongodb://localhost/roseryan
+            url: mongodb://localhost/test
 ---
 #hibernate:
 #    cache:
