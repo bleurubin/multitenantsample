@@ -65,7 +65,7 @@ grails:
     gorm:
         multiTenancy:
             mode: DISCRIMINATOR
-            tenantResolverClass: org.grails.datastore.mapping.multitenancy.web.SubDomainTenantResolver
+            tenantResolverClass: org.grails.datastore.mapping.multitenancy.resolvers.FixedTenantResolver
     mongodb:
             url: mongodb://localhost/test
 ---
