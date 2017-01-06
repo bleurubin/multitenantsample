@@ -11,6 +11,6 @@ class Foo implements MultiTenant<Foo> {
     String name
 
     static constraints = {
-        name unique: ['tenantId']
+        name unique: true
     }
 }
